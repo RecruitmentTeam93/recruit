@@ -1,9 +1,6 @@
 package com.lagou.recruit.entity;
 
 /**
- * @author Guo GG
- * @create 2021-06-06-1:41
- *
  * 1.系统注册:账户名为邮箱email,密码password,填写用户名,短信验证成功后注册成功.
  * 2.系统登陆,登出:邮箱,密码 ,验证码,.
  */

@@ -4,30 +4,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/css.css">
-<script type="text/javascript" async="" src="style/js/conversion.js"></script>
-<script src="style/js/allmobilize.min.js" charset="utf-8" id="allmobilize"></script>
-<style type="text/css"></style>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>我的简历</title>
 <!-- <div class="web_root"  style="display:none">h</div> -->
-<script type="text/javascript">
-	var ctx = "h";
-	console.log(1);
-</script>
-<link href="style/css/style.css" type="text/css" rel="stylesheet">
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>resume</title>
-<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 <!-- 引入自定义css文件 style.css -->
 <link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/css.css">
 
 	<style>
 		body {
 			margin-top: 20px;
 			margin: 0 auto;
-			width: 1200px;
 		}
 		
 		.carousel-inner .item img {
@@ -51,41 +39,43 @@
 		}
 	</style>
 </head>
+
 <body>
-	<jsp:include page="/header.jsp"></jsp:include>
+<jsp:include page="/header.jsp"></jsp:include>
 	<!-- end #header -->
-	<div class="main">
+	<div class="main"  style="margin: auto">
 		<div class="right">
+
 				<a href="#" class="select">求职信息</a><a href="#">公司信息</a></div>
 
 			<!-- 一条记录 开始 -->
 			<div class="box1 shadow">
 				<div class="tit">
-					<h2>个人信息</h2>
+					<h2 style="color: #0d9572">个人信息</h2>
 					<div class="titText"></div>
 				</div>
 				<table class="myInfo">
 					<tr>
 						<th>姓名：</th>
-						<td> 2021年9月1日</td>
+						<td>${user.username}</td>
 						<th>性别</th>
-						<td>男</td>
+						<td>${user.sex}</td>
 					</tr>
 					<tr>
-						<th>现居住地：</th>
-						<td>南京市鼓楼区</td>
+						<th>邮箱：</th>
+						<td>${user.email}</td>
 						<th>工作年限</th>
-						<td>二年以上</td>
+						<td>${user.work_experience}</td>
 					</tr>
 					<tr>
-						<th>出生日期：</th>
-						<td>董斌</td>
+						<th>年龄：</th>
+						<td></td>
 						<th>学历</th>
-						<td>初中</td>
+						<td>${user.degree}</td>
 					</tr>
 					<tr>
 						<th>联系电话：</th>
-						<td>13565657878</td>
+						<td>${user.mobile}</td>
 						<th>专业</th>
 						<td>计算机系</td>
 					</tr>
@@ -96,24 +86,26 @@
 			<!-- 一条记录 开始 -->
 			<div class="box1 shadow">
 				<div class="tit">
-					<h2>简历信息</h2>
+					<h2 style="color: #0d9572">备注信息</h2>
 					<div class="titText"></div>
 				</div>
 				<table class="myInfo">
 					<tr>
 						<th>技能特长：</th>
-						<td> 2012年8月1日</td>
+						<td>${user.content}</td>
 					</tr>
 					<tr>
-						<th>工作心得：</th>
-						<td>南京市鼓楼区</td>
+						<th>项目经验：</th>
+						<td></td>
 					</tr>
 					<tr>
 						<th>简厅附件：</th>
 						<td>无</td>
 					</tr>
 				</table>
-				<a class="inputBtn infoBtn">修改</a>
+				<div class="form-group">
+					<button type="button" class="btn btn-success" onclick="updateinfor('${pageContext.request.contextPath}')">修改</button>
+				</div>
 			</div>
 			<!-- 一条记录 结束 -->
 

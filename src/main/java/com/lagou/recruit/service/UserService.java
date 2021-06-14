@@ -6,10 +6,6 @@ import com.lagou.recruit.entity.User;
 
 import java.sql.SQLException;
 
-/**
- * @author Guo GG
- * @create 2021-06-07-19:59
- */
 public class UserService {
 
     private UserDao dao = new UserDao();

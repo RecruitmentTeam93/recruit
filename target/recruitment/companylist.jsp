@@ -5,10 +5,6 @@
 	<head>
 		<script id="allmobilize" charset="utf-8" src="style/js/allmobilize.min.js"></script>
 		<meta name="baidu-site-verification" content="QIQ6KC1oZ6" />
-		<script type="text/javascript">
-			var ctx = "h";
-			console.log(1);
-		</script>
 		<link rel="stylesheet" type="text/css" href="style/css/style.css" />
 		<link rel="stylesheet" type="text/css" href="style/css/external.min.css" />
 		<link rel="stylesheet" type="text/css" href="style/css/popup.css" />
@@ -19,26 +15,13 @@
 		<script type="text/javascript" src="style/js/conv.js"></script>
 	</head>
 	<body>
-		<div id="body">
-			<div id="header">
-				<div class="wrapper">
-					<a href="index.html" class="logo">
-						<img src="style/images/logo.png" width="229" height="43" alt="拉勾招聘-专注互联网招聘" />
-					</a>
-					<ul class="reset" id="navheader">
-						<li><a href="index.html">首页</a></li>
-						<li class="current"><a href="companylist.jsp">公司</a></li>
-						<li><a href="h/toForum.html" target="_blank">论坛</a></li>
-						<li><a href="create.html" rel="nofollow">发布职位</a></li>
-					</ul>
-				</div>
+		<div>
 				<jsp:include page="/header.jsp"></jsp:include>
 			</div><!-- end #header -->
 			<div id="container">
-
 				<div class="clearfix">
 					<div class="content_l">
-						<form id="companyListForm" name="companyListForm" method="get" action="h/c/companylist.html">
+						<form id="companyListForm" name="companyListForm" method="get" action="">
 							<input type="hidden" id="city" name="city" value="全国" />
 							<input type="hidden" id="fs" name="fs" value="" />
 							<input type="hidden" id="ifs" name="ifs" value="" />
@@ -173,7 +156,7 @@
 							</dl>
 							<ul class="hc_list reset" style="width: 1000px;">
 								<li>
-									<a href="h/c/25268.html" target="_blank">
+									<a href="#" target="_blank">
 										<h3 title="杭州瓷肌">杭州瓷肌</h3>
 										<div class="comLogo">
 											<img src="style/images/451a3ab87bb149a5b0779baf81f0a667.jpg" width="190" height="190" alt="杭州瓷肌" />
@@ -183,9 +166,9 @@
 											</ul>
 										</div>
 									</a>
-									<a href="h/jobs/144038.html" target="_blank"> 视觉设计经理/主管</a>
-									<a href="h/jobs/147887.html" target="_blank"> 招聘</a>
-									<a href="h/jobs/144041.html" target="_blank"> 视觉设计师</a>
+									<a href="#" target="_blank"> 视觉设计经理/主管</a>
+									<a href="#" target="_blank"> 招聘</a>
+									<a href="#" target="_blank"> 视觉设计师</a>
 									<ul class="reset ctags">
 										<li>B轮</li>
 										<li>电子商务</li>
@@ -195,22 +178,48 @@
 										<li>定期体检</li>
 									</ul>
 								</li>
+								<%--<c:forEach items="companyslist" var="companys">
+									<li>
+										<a href="${companys.url}" target="_blank">
+											<h3 title="杭州瓷肌">${companys.cname}</h3>
+											<div class="comLogo">
+												<img src="style/images/451a3ab87bb149a5b0779baf81f0a667.jpg" width="190" height="190" alt="杭州瓷肌" />
+												<ul>
+													<li>${companys.tags}</li>
+													<li>${companys.territory}</li>
+												</ul>
+											</div>
+										</a>
+										<a href="#" target="_blank"> 视觉设计经理/主管</a>
+										<a href="#" target="_blank"> 招聘</a>
+										<a href="#" target="_blank"> 视觉设计师</a>
+										<ul class="reset ctags">
+											<li>${companys.finance}</li>
+											<li>电子商务</li>
+											<li>五险一金</li>
+											<li>带薪年假</li>
+											<li>节日礼物</li>
+											<li>定期体检</li>
+										</ul>
+									</li>
+								</c:forEach>--%>
 							</ul>
+
+
 
 							<div class="Pagination"></div>
 						</form>
 					</div>
 
-				<script type="text/javascript" src="style/js/company_list.min.js"></script>
+				<script type="text/javascript" src="style/js/company.min.js"></script>
 				<script>
 					$(function(){
-	/*分页 */
- 	 	 				 		$('.Pagination').pager({
-	      currPage: 1,
-	      pageNOName: "pn",
-	      form: "companyListForm",
-	      pageCount: 20,
-	      pageSize: 5
+					$('.Pagination').pager({
+					  currPage: 1,
+					  pageNOName: "pn",
+					  form: "companyslist",
+					  pageCount: 20,
+					  pageSize: 5
 	});	
 })
 </script>

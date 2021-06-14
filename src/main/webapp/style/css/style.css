@@ -1758,7 +1758,7 @@ ul.resumeLists li.job_item .checkbox{margin-top:30px;}
 .jd_collection_success a.jd_collection_page{color:#019875;}
 .jd_collection_tip{outline:none;cursor:default;width:335px;height:300px;background:url(img/collection_tip.png) no-repeat;position:absolute;left:-66px;top:-24px;z-index:1000}
 .jd_collection_tip_x{width:20px;height:20px;cursor: pointer;display:block;margin:135px 0 0 312px;}
-/*collections.html*/
+/*collections.jsp*/
 .c_collections{margin-bottom:40px;position:relative; background-color:#fafafa;}
 .c_collections h1{ float:left; color:#fff; font-size:24px; font-weight:normal; height:43px; background:#91cebe; margin:-8px 0 10px 48px;/*已投递简历状态:40px;old:20px*/ padding:0 20px; line-height:43px; position: absolute; z-index:2;}
 .c_collections h1 em{ background:url(img/title_arrow01.png) no-repeat; width:6px; height:8px; position:absolute; left:-6px; top:0;}

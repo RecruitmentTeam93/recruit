@@ -3,11 +3,8 @@ package com.lagou.recruit.controller;
 import com.lagou.common.utils.MD5Utils;
 import com.lagou.recruit.entity.User;
 import com.lagou.recruit.service.UserService;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -67,4 +64,8 @@ public class UserServlet extends BasicServlet {
             request.getRequestDispatcher("jianli.jsp").forward(request,response);
         }
     }
+    /*public void findUserInfor(HttpServletRequest request, HttpServletResponse response){
+
+
+    }*/
 }
