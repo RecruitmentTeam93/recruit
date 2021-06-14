@@ -8,6 +8,7 @@ pageEncoding="UTF-8"%>
 <link rel="alternate" media="handheld"  />
 <script type="text/javascript">
 </script>
+
 <link rel="stylesheet" type="text/css" href="style/css/style.css"/>
 <script src="style/js/jquery.1.10.1.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="style/js/jquery.lib.min.js"></script>

@@ -12,7 +12,7 @@ import java.util.List;
 public class UserDao extends BasicDao<User> implements IDao<User> {
 
     @Override
-    //邮箱密码登陆
+    //查询user信息
     public User selectOne(Object... params) throws Exception {
         String sql = "select * from user where email =? and password = ?";
         User user = this.getBean(DataSourceUtils.getConnection(), sql,User.class,params);
@@ -30,6 +30,7 @@ public class UserDao extends BasicDao<User> implements IDao<User> {
     }
 
     @Override
+    //更新个人简历信息
     public int update(Object... params) throws Exception {
         return 0;
     }

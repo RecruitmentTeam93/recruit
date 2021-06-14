@@ -11,6 +11,9 @@
 * height:46px;                    login and register btn
 * height:60px;                    detail page btn .btn_big
 **********************************************/
+
+
+
 *{outline: none; }html,body{height:100%;}
 #body{min-height: 100%;height: auto !important; height: 100%; margin: 0 0 -37px;}
 body{margin:0;padding:0; font:14px/22px "微软雅黑","宋体",Arial; color:#333;word-wrap:break-word;}
@@ -910,76 +913,12 @@ a.greylink{ color:#555;font-size:18px; margin-right:60px;text-decoration:underli
 #welcome a.wel_c{background:url("img/welcome_c.png") no-repeat; width:45px;height:45px;position:absolute;top:60px;left:800px;}
 #welcome a.wel_go{width:240px;height:36px;position:absolute;left:390px;top:356px;}
 
-/*友情链接*/
-#linkbox{padding:15px 0 0 0; margin-top:40px;border-top:1px solid #ececed;overflow:hidden;}
-#linkbox dt{float:left;width:70px;margin-top:2px; font-size:15px;}
-#linkbox a{white-space:nowrap;float:left;padding:3px 9px;color:#555555;font-size:12px; text-decoration:none;height:15px;line-height:15px;margin:5px 0 5px -1px;}
-#linkbox a:hover{color:#0061a6;text-decoration: underline;}
-#linkbox span{float:left;font-size:12px;padding:3px 0;color:#999;}
-#linkbox a.more{text-decoration: underline;}
-.c_section_mid dd.flink{padding:70px 25px; line-height:36px;}
-.flink a{margin-right:20px; word-wrap:normal !important; float:left;}
-
 /*订阅页提示注册*/
 #registerPopForm table{font-size:18px; line-height:36px;}
 #registerPopForm input[type="password"]{width:300px; height:30px; line-height:30px;margin-top:0;}
 #registerPopForm input[type="password"]:focus{border:2px solid #fff;-webkit-box-shadow: 0px 0px 4px #b5f0e7;-moz-box-shadow: 0px 0px 4px #b5f0e7;box-shadow: 0px 0px 4px #b5f0e7;}
 #registerPopForm label{font-size:14px;}
 #registerPopForm span.error{margin-bottom:0;}
-
-/*论坛 list.html*/
-.bbs_list{background:#fafafa;}
-.bbs_list li{position:relative;padding:15px 15px 15px 43px; border-bottom:1px solid #e5e5e5; background:url(img/msg.png) 17px 20px no-repeat;overflow:hidden;}
-.bbs_list li:last-child{border:none;}
-.bbs_list li a.topic{font-size:18px;font-weight:normal;display:block;margin-bottom:10px;}
-.bbs_list_l{width:535px;float:left;}
-.bbs_list_l a img{vertical-align:bottom;padding-left:10px;}
-.bbs_list li a.count{min-width:40px;color:#fff;font-weight:bold;text-align:center;float:left;border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;background:#91cebe;margin:18px 0 0 10px;}
-.bbs_list li a.count:hover{background:#019875;}
-.bbs_del{width:25px;height:25px;display:block;position:absolute;right:10px;top:6px;background:url(img/bbs_icon.png) 0 0 no-repeat;}
-.bbs_del:hover{background-position:-25px 0;}
-.bbs_top{width:25px;height:25px;display:block;position:absolute;right:10px;top:37px;background:url(img/bbs_icon.png) 0 -33px no-repeat;}
-.bbs_top:hover{background-position:-25px -33px;}
-.bbs_top_cancel{width:25px;height:25px;display:block;position:absolute;right:10px;top:37px;background:url(img/bbs_icon.png) 0 -62px no-repeat;}
-.bbs_top_cancel:hover{background-position:-25px -62px;}
-.topic_create:hover{background:#019875;color:#fff;}
-.subscribe_side ul li.bbs1{background:url(img/bbs_side.png) 0 0 no-repeat; }
-.subscribe_side ul li.bbs2{background:url(img/bbs_side.png) 0 -110px no-repeat;}
-
-/*论坛 new.html*/
-.bbs_bg{clear:both;background:#fafafa;padding:30px 28px 40px 28px;overflow:hidden;}
-.new_topic h3{margin:0 0 10px 0; font-size:18px;font-weight:normal;}
-.new_topic input{margin:0 0 20px 0;}
-.bbs_bg .btn_create{border:none;float:right;width:150px;height:40px;text-align:center;margin:20px 0 0 20px;color:#fff;font-size:18px;line-height:40px;background:#0d9572;}
-.bbs_bg .btn_create:hover{background:#00694e;}
-.bbs_bg .btn_cancel{cursor:pointer;border:none;float:right;width:150px;height:40px;text-align:center;margin:20px 0 0 0;padding:0;color:#fff;font-size:18px;line-height:40px;background:#d3d3d3;}
-.bbs_bg .btn_cancel:hover{ background:#bfbdbd; }
-.bbs_bg span.error{margin:-15px 0 20px;}
-
-/*论坛 detail.html*/
-.bbs_bg{background:#fafafa;padding:30px 28px 40px 28px;overflow:hidden;}
-.topic_detail h1{font-size:24px;margin:0 0 20px 0;}
-.topic_detail a{color:#019875;float:right;}
-.topic_detail a.like{margin-right:30px;}
-.topic_detail a.delete{margin-left:20px;}
-.topic_detail p{font-size:18px;line-height:32px;color:#555;margin:30px 0;}
-.topic_detail h2{float:left;font-size:24px;line-height:32px;color:#fff;font-weight:normal;margin:20px 0 20px -30px; padding:8px 20px 8px 30px;background:#93b7bb;}
-.topic_detail ul{clear:both;}
-.topic_detail li{border-bottom:1px dashed #eaeaea;padding:0 0 15px 0;}
-.topic_detail h3{font-size:16px;font-weight:normal;line-height:24px;}
-.topic_detail i{font-style:normal;}
-.topic_detail textarea{height:120px;margin:20px 0;}
-.noreply{clear:both;color:#999;font-size:18px;height:60px;border-bottom:1px dashed #eaeaea;background:url(img/noreply.png) 180px 30px no-repeat;padding:75px 0 0 280px;}
-.topic_detail a.topic_login{float:left;font-size:18px; color:#333; background:url(img/bbs_login.png) no-repeat; padding-left:30px;margin:20px 0 0 0;}
-
-/*论坛面包屑*/
-.breadcrumb{overflow:hidden;font-size:18px;color:#999;margin-bottom:20px;}
-.breadcrumb a{color:#555;}
-
-.reward_box{background:#fff;margin:6px 0;padding-bottom:5px;}
-.reward_box h3{font-size:18px;line-height:32px;color:#e46a4a;font-weight:normal;background:url(img/reward_big.png) no-repeat;padding-left:25px;margin:0 0 5px 15px;}
-.reward_box div{font-size:14px;line-height:18px;color:#777;padding:3px 15px;}
-.reward{color:#e46a4a !important;background:url('img/reward.png') 0 2px no-repeat; padding-left:15px;}
 
 
 /*hotSearch*/

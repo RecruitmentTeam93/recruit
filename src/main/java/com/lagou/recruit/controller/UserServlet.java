@@ -29,20 +29,21 @@ public class UserServlet extends BasicServlet {
         String password = request.getParameter("password");
 
         User user = userService.login(email, password);
-
+        int userType = user.getType();
         if (user!=null){
             //登陆成功
             if (user.getType()==0){
                 //普通用户登陆
                 HttpSession session = request.getSession();
                 session.setAttribute("user", user);
-                request.getRequestDispatcher("indexuser.jsp").forward(request,response);
-            }else if (user.getType()==1){
+                session.setAttribute("userType", userType);
+                request.getRequestDispatcher("index.jsp").forward(request,response);
+            }/*else if (user.getType()==1){
                 //企业用户登陆
                 HttpSession session = request.getSession();
                 session.setAttribute("user", user);
                 request.getRequestDispatcher("indexcom.jsp").forward(request,response);
-            }
+            }*/
 
         }else {
             //登陆失败   ${requestScope.msg}
@@ -56,5 +57,14 @@ public class UserServlet extends BasicServlet {
         HttpSession session = request.getSession();
         session.invalidate();
         response.sendRedirect("login.jsp");
+    }
+        //查询用户信息
+    public void findUserInfo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        User user =(User) session.getAttribute("user");
+        if (user!=null){
+            request.setAttribute("user", user);
+            request.getRequestDispatcher("jianli.jsp").forward(request,response);
+        }
     }
 }

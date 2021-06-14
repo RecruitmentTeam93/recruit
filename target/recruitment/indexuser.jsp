@@ -20,18 +20,7 @@ pageEncoding="UTF-8"%>
 </head>
 <body>
 	<div id="body">
-		<div id="header">
-			<div class="wrapper">
-				<a href="indexuser.jsp" class="logo">
-					<img src="style/images/logo.png" width="229" height="43" alt="拉勾招聘-专注互联网招聘" />
-				</a>
-				<ul class="reset" id="navheader">
-					<li class="current"><a href="indexuser.jsp">首页</a></li>
-					<li><a href="companylist.jsp">公司</a></li>
-					<li><a href="jianli.jsp" rel="nofollow">我的简历</a></li>
-					<%--<li><a href="create.html" rel="nofollow">发布职位</a></li>--%>
-				</ul>
-			</div>
+
 		<!-- 引入header.jsp -->
 		<jsp:include page="/header.jsp"></jsp:include>
 		<div id="container">
