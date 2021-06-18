@@ -104,7 +104,8 @@
 					</tr>
 				</table>
 				<div class="form-group">
-					<button type="button" class="btn btn-success" onclick="updateinfor('${pageContext.request.contextPath}')">修改</button>
+					<button type="button" class="btn btn-success" onclick="${resumeinfor.jsp}">完成</button>
+					<a href="resumeinfor.jsp" style="width: 10px">修改</a>
 				</div>
 			</div>
 			<!-- 一条记录 结束 -->

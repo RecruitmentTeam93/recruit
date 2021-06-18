@@ -10,13 +10,6 @@
     <link rel="stylesheet" type="text/css" href="style/css/style.css" />
     <link rel="stylesheet" type="text/css" href="style/css/external.min.css" />
     <link rel="stylesheet" type="text/css" href="style/css/popup.css" />
-    <%--<script src="style/js/jquery.1.10.1.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="style/js/jquery.lib.min.js"></script>
-    <script src="style/js/ajaxfileupload.js" type="text/javascript"></script>
-    <script type="text/javascript" src="style/js/additional-methods.js"></script>
-    <script type="text/javascript">
-    </script>
-    <script type="text/javascript" src="style/js/conv.js"></script>--%>
     <title>Title</title>
 </head>
 <c:set var="path" scope="session" value="${pageContext.request.contextPath}"></c:set>
@@ -24,7 +17,7 @@
 <div id="header">
     <div class="wrapper">
         <a href="index.jsp" class="logo">
-            <img src="style/images/logo.png" width="229" height="43" alt="拉勾招聘-专注互联网招聘" />
+            <img src="style/images/logo.png" width="229" height="43" alt="拉勾招聘-互联网招聘" />
         </a>
         <c:if test="${sessionScope.user==null}">
             <ul class="reset" id="navheader">
@@ -40,7 +33,7 @@
         <c:if test="${sessionScope.user!=null}">
         <ul class="reset" id="navheader">
             <li class="current"><a href="index.jsp">首页</a></li>
-            <li ><a href="companylist.jsp" >公司</a></li>
+            <li ><a href="companylist.jsp" >公司职位</a></li>
             <li ><a href="jianli.jsp" rel="nofollow">我的简历</a></li>
             <li ><a href="collections.jsp" rel="nofollow">我的收藏</a></li>
             <li ><a href="create.jsp" rel="nofollow">发布职位</a></li>

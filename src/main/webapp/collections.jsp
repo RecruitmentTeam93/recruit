@@ -35,10 +35,10 @@
 												<h2 title="商家运营">
 													<a target="_blank" href="#">
 														<em>商家运营</em>
-														<span>（8k-16k）</span>
+														<span></span>
 													</a>
 												</h2>
-												<div class="co_cate">搜狗 / 北京 / 1-3年 / 本科</div>
+												<div class="co_cate">北京</div>
 												<span class="co_youhuo c7">领先品牌，全新产品，急聘电商运营人才。</span>
 												<a class="collection_link" target="_blank" href="#">投个简历</a>
 												<i></i>

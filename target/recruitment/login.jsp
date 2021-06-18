@@ -38,7 +38,7 @@ pageEncoding="UTF-8"%>
                 <input type="hidden" id="timestamp" name="timestamp" value=""/>
 			</form>
 			<div class="login_right">
-				<div>还没有拉勾帐号？</div>
+				<div>还没有帐号？</div>
 				<a href="register.jsp" class="registor_now">立即注册</a>
 			    <div class="login_others">使用以下帐号直接登录:</div>
 			    <a  href="#"  target="_blank" class="icon_wb" title="使用新浪微博帐号登录"></a>

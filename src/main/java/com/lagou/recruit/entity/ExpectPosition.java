@@ -1,18 +1,19 @@
 package com.lagou.recruit.entity;
 public class ExpectPosition {
 
-    private String id;
+    private String eid;
     private String city;
     private String money;
     private String position;
     private int user_id;
     private String type;
 
+
     public ExpectPosition() {
     }
 
-    public ExpectPosition(String id, String city, String money, String position, int user_id, String type) {
-        this.id = id;
+    public ExpectPosition(String eid, String city, String money, String position, int user_id, String type) {
+        this.eid = eid;
         this.city = city;
         this.money = money;
         this.position = position;
@@ -22,18 +23,18 @@ public class ExpectPosition {
 
     /**
      * 获取
-     * @return id
+     * @return eid
      */
-    public String getId() {
-        return id;
+    public String getEid() {
+        return eid;
     }
 
     /**
      * 设置
-     * @param id
+     * @param eid
      */
-    public void setId(String id) {
-        this.id = id;
+    public void setEid(String eid) {
+        this.eid = eid;
     }
 
     /**
@@ -117,6 +118,6 @@ public class ExpectPosition {
     }
 
     public String toString() {
-        return "ExpectPosition{id = " + id + ", city = " + city + ", money = " + money + ", position = " + position + ", user_id = " + user_id + ", type = " + type + "}";
+        return "ExpectPosition{eid = " + eid + ", city = " + city + ", money = " + money + ", position = " + position + ", user_id = " + user_id + ", type = " + type + "}";
     }
 }

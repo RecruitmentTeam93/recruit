@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="style/css/external.min.css" />
+		<link rel="stylesheet" type="text/css" href="style/css/popup.css" />
+	</head>
+	<body>
+		<div id="body">
+			<div id="header">
+				<div class="wrapper">
+					<a href="index.html" class="logo">
+						<img src="style/images/logo.png" width="229" height="43" alt="拉勾招聘-专注互联网招聘" />
+					</a>
+					<ul class="reset" id="navheader">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="companylist.html">公司</a></li>
+						<li><a href="h/toForum.html" target="_blank">论坛</a></li>
+						<li><a href="jianli.html" rel="nofollow">我的简历</a></li>
+						<li><a href="create.html" rel="nofollow">发布职位</a></li>
+					</ul>
+					<ul class="loginTop">
+						<li><a href="login.html" rel="nofollow">登录</a></li>
+						<li>|</li>
+						<li><a href="register.html" rel="nofollow">注册</a></li>
+					</ul>
+				</div>
+			</div><!-- end #header -->
+			<div id="container">
+				<div class="clearfix">
+					<div class="content_l">
+						<dl class="job_detail">
+							<dt>
+								<h1 title="">
+									<em></em>
+									<div>招聘</div>
+								</h1>
+								<a class="inline jd_collection" href="#loginPop" title="收藏">
+								</a>
+							</dt>
+							<dd class="job_request">
+								<span class="red">${position.max_money}</span>
+								<span>${position.work_city}</span>
+								<span>经验3-5年 </span>
+								<span> ${position.degree}</span>
+								<span>${position.p_name}</span><br />
+								职位 : 大家都来了 你还在等什么！！
+							</dd>
+							<dd class="job_bt">
+								<h3 class="description">职位描述</h3>
+								<p>岗位： <br />${position.description}</p>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
