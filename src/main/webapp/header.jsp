@@ -21,7 +21,7 @@
         </a>
         <c:if test="${sessionScope.user==null}">
             <ul class="reset" id="navheader">
-                <li class="current"><a href="index.jsp">首页</a></li>
+                <li class="current"><a href="${pageContext.request.contextPath}/position?method=index">首页</a></li>
                 <li ><a href="companylist.jsp" >公司</a></li>
             </ul>
             <ul class="loginTop">
@@ -32,7 +32,7 @@
         </c:if>
         <c:if test="${sessionScope.user!=null}">
         <ul class="reset" id="navheader">
-            <li class="current"><a href="index.jsp">首页</a></li>
+            <li class="current"><a href="${pageContext.request.contextPath}/position?method=index">首页</a></li>
             <li ><a href="companylist.jsp" >公司职位</a></li>
             <li ><a href="jianli.jsp" rel="nofollow">我的简历</a></li>
             <li ><a href="collections.jsp" rel="nofollow">我的收藏</a></li>
@@ -41,7 +41,7 @@
         <ul class="loginTop">
             <li>欢迎,<a href="#">${sessionScope.user.username}</a></li>
             <li>|</li>
-            <li><a href="login.jsp" rel="nofollow">退出</a></li>
+            <li><a href="${pageContext.request.contextPath}/user?method=logout" rel="nofollow">退出</a></li>
         </c:if>
        <%-- <c:if test="${sessionScope.user!=null}">
 

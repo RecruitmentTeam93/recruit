@@ -88,7 +88,7 @@ public class UserServlet extends BasicServlet {
                 HttpSession session = request.getSession();
                 session.setAttribute("user", user);
                 session.setAttribute("userType", userType);
-                request.getRequestDispatcher("index.jsp").forward(request,response);
+                request.getRequestDispatcher("home.jsp").forward(request,response);
             }/*else if (user.getType()==1){
                 //企业用户登陆
                 HttpSession session = request.getSession();

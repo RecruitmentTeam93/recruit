@@ -12,6 +12,7 @@ public class Position {
     private String address;
     private String work_experience;
     private String degree;
+    private String time;               //发布时间
     private String advantage;
     private String description;
 
@@ -30,6 +31,23 @@ public class Position {
         this.address = address;
         this.work_experience = work_experience;
         this.degree = degree;
+        this.advantage = advantage;
+        this.description = description;
+    }
+
+    public Position(int id, String p_type, String p_name, String department, String work_type, int min_money, int max_money, String work_city, String address, String work_experience, String degree, String time, String advantage, String description) {
+        this.id = id;
+        this.p_type = p_type;
+        this.p_name = p_name;
+        this.department = department;
+        this.work_type = work_type;
+        this.min_money = min_money;
+        this.max_money = max_money;
+        this.work_city = work_city;
+        this.address = address;
+        this.work_experience = work_experience;
+        this.degree = degree;
+        this.time = time;
         this.advantage = advantage;
         this.description = description;
     }
@@ -242,4 +260,23 @@ public class Position {
         this.description = description;
     }
 
+    /**
+     * 获取
+     * @return time
+     */
+    public String getTime() {
+        return time;
+    }
+
+    /**
+     * 设置
+     * @param time
+     */
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public String toString() {
+        return "Position{id = " + id + ", p_type = " + p_type + ", p_name = " + p_name + ", department = " + department + ", work_type = " + work_type + ", min_money = " + min_money + ", max_money = " + max_money + ", work_city = " + work_city + ", address = " + address + ", work_experience = " + work_experience + ", degree = " + degree + ", time = " + time + ", advantage = " + advantage + ", description = " + description + "}";
+    }
 }

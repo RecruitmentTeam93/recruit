@@ -45,6 +45,9 @@
 										<li>定期体检</li>
 									</ul>
 								</li>
+
+
+
 						<%--		<c:forEach items="positionlist" var="list">
 									<li>
 										<a href="#" target="_blank">
@@ -68,31 +71,6 @@
 									</li>
 								</c:forEach>--%>
 
-								<%--<c:forEach items="companyslist" var="companys">
-									<li>
-										<a href="${companys.url}" target="_blank">
-											<h3 title="杭州瓷肌">${companys.cname}</h3>
-											<div class="comLogo">
-												<img src="style/images/451a3ab87bb149a5b0779baf81f0a667.jpg" width="190" height="190" alt="杭州瓷肌" />
-												<ul>
-													<li>${companys.tags}</li>
-													<li>${companys.territory}</li>
-												</ul>
-											</div>
-										</a>
-										<a href="#" target="_blank"> 视觉设计经理/主管</a>
-										<a href="#" target="_blank"> 招聘</a>
-										<a href="#" target="_blank"> 视觉设计师</a>
-										<ul class="reset ctags">
-											<li>${companys.finance}</li>
-											<li>电子商务</li>
-											<li>五险一金</li>
-											<li>带薪年假</li>
-											<li>节日礼物</li>
-											<li>定期体检</li>
-										</ul>
-									</li>
-								</c:forEach>--%>
 							</ul>
 							<input type="button" value="预览" id="jobPreview" name="preview" class="btn_s"  onclick="">
 					<%--	</form>--%>

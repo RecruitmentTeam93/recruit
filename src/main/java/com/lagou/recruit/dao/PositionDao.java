@@ -3,22 +3,42 @@ import com.lagou.common.utils.DataSourceUtils;
 import com.lagou.recruit.entity.Position;
 import java.util.List;
 public class PositionDao extends BasicDao<Position> implements IDao<Position> {
+    //查询月薪最高的前6条信息的数据
+    public List<Position> selectAllHot() throws Exception {
+        String sql = "select  id,address,advantage,work_city,degree,department,max_money,work_experience,p_name from position order by max_money desc limit 0,6";
+        List<Position> list = this.getBeanList(DataSourceUtils.getConnection(), sql, Position.class);
+        return list;
+    }
+
+
+    //查询月薪最高的前9条信息的商品列表
+    public List<Position> ALL() throws Exception {
+        String sql = "select id, address,advantage,work_city,p_name,degree,department,max_money,work_experience from position order by max_money desc";
+        List<Position> list = this.getBeanList(DataSourceUtils.getConnection(), sql, Position.class);
+        return list;
+    }
+
+
+
     @Override//通过id查询职位
     public Position selectOne(Object... params) throws Exception {
-        String sql = "select department,p_name,min_money,max_money,work_city,description,degree,work_experience,work_type from position where id=?";
+        String sql = "select id, department,p_name,min_money,max_money,work_city,description,degree,work_experience,work_type from position where id=?";
         Position position = this.getBean(DataSourceUtils.getConnection(), sql, Position.class, params);
         return position;
     }
     @Override
     public List<Position> selectAll(Object... params) throws Exception {
-        String sql = "select department,p_name,min_money,max_money,work_city,description,degree from position where min_money>2";
-        List<Position> list = this.getBeanList(DataSourceUtils.getConnection(), sql, Position.class);
+        String  sql ="select * from position where  p_name like  CONCAT('%',?,'%') and work_city like  CONCAT('%',?,'%') limit ?,6" ;
+        List<Position> list = this.getBeanList(DataSourceUtils.getConnection(), sql, Position.class,
+                params);
         return list;
     }
 
     @Override
     public Object selectValue(Object... params) throws Exception {
-        return null;
+        String sql ="select count(*) from position where  p_name like  CONCAT('%',?,'%') and work_city like  CONCAT('%',?,'%')";
+        Object value = this.getSingleValue(DataSourceUtils.getConnection(), sql, params);
+        return value;
     }
 
     @Override

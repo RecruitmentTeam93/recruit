@@ -49,6 +49,29 @@
 											</div>
 										</li>
 									</ul>
+									<ul class="reset my_collections">
+										<li data-id="148519">
+											<a title="搜狗" target="_blank" href="#">
+												<img alt="搜狗" src="style/images/ff80808142e0968f0142e0d41f1205f2.jpg">
+											</a>
+											<div class="co_item">
+												<h2 title="商家运营">
+													<a target="_blank" href="#">
+														<em>商家运营</em>
+														<span></span>
+													</a>
+												</h2>
+												<div class="co_cate">北京</div>
+												<span class="co_youhuo c7">领先品牌，全新产品，急聘电商运营人才。</span>
+												<a class="collection_link" target="_blank" href="#">投个简历</a>
+												<i></i>
+												<a class="collectionCancel collection_link collected" href="javascript:;">
+													取消收藏
+													<span>已取消收藏</span>
+												</a>
+											</div>
+										</li>
+									</ul>
 								</form>
 							</dd>
 						</dl>
