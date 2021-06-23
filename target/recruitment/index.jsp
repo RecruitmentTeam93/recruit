@@ -74,63 +74,63 @@
 								</dt>
 								<dd>
 									<a href="#">HTML5</a>
-									<a href="h/jobs/list_Android?labelWords=label" class="curr">Android</a>
-									<a href="h/jobs/list_iOS?labelWords=label" class="curr">iOS</a>
-									<a href="h/jobs/list_WP?labelWords=label">WP</a>
+									<a href="#" class="curr">Android</a>
+									<a href="#" class="curr">iOS</a>
+									<a href="#">WP</a>
 								</dd>
 							</dl>
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_前端开发?labelWords=label">
+									<a href="#">
 										前端开发
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_web%E5%89%8D%E7%AB%AF?labelWords=label">web前端</a>
-									<a href="h/jobs/list_Flash?labelWords=label">Flash</a>
-									<a href="h/jobs/list_html5?labelWords=label">html5</a>
-									<a href="h/jobs/list_JavaScript?labelWords=label">JavaScript</a>
-									<a href="h/jobs/list_U3D?labelWords=label">U3D</a>
-									<a href="h/jobs/list_COCOS2D-X?labelWords=label">COCOS2D-X</a>
+									<a href="#">web前端</a>
+									<a href="#">Flash</a>
+									<a href="#">html5</a>
+									<a href="#">JavaScript</a>
+									<a href="#">U3D</a>
+									<a href="#">COCOS2D-X</a>
 								</dd>
 							</dl>
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_测试?labelWords=label">
+									<a href="#">
 										测试
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_%E6%B5%8B%E8%AF%95%E5%B7%A5%E7%A8%8B%E5%B8%88?labelWords=label">测试工程师</a>
-									<a href="h/jobs/list_%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95?labelWords=label">自动化测试</a>
-									<a href="h/jobs/list_%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95?labelWords=label">功能测试</a>
-									<a href="h/jobs/list_%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95?labelWords=label">性能测试</a>
-									<a href="h/jobs/list_%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91?labelWords=label">测试开发</a>
+									<a href="#">测试工程师</a>
+									<a href="#">自动化测试</a>
+									<a href="#">功能测试</a>
+									<a href="#">性能测试</a>
+									<a href="#">测试开发</a>
 								</dd>
 							</dl>
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_运维?labelWords=label">
+									<a href="#">
 										运维
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88?labelWords=label">运维工程师</a>
-									<a href="h/jobs/list_%E8%BF%90%E7%BB%B4%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88?labelWords=label">运维开发工程师</a>
-									<a href="h/jobs/list_%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E5%B8%88?labelWords=label">网络工程师</a>
-									<a href="h/jobs/list_%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88?labelWords=label">系统工程师</a>
-									<a href="h/jobs/list_IT%E6%94%AF%E6%8C%81?labelWords=label">IT支持</a>
+									<a href="#">运维工程师</a>
+									<a href="#">运维开发工程师</a>
+									<a href="">网络工程师</a>
+									<a href="">系统工程师</a>
+									<a href="l">IT支持</a>
 								</dd>
 							</dl>
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_DBA?labelWords=label">
+									<a href="">
 										DBA
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_MySQL?labelWords=label">MySQL</a>
-									<a href="h/jobs/list_SQLServer?labelWords=label">SQLServer</a>
+									<a href="">MySQL</a>
+									<a href="">SQLServer</a>
 									<a href="h/jobs/list_Oracle?labelWords=label">Oracle</a>
 									<a href="h/jobs/list_DB2?labelWords=label">DB2</a>
 									<a href="h/jobs/list_MongoDB?labelWords=label">MongoDB</a>
@@ -436,48 +436,48 @@
 						<div class="menu_sub dn">
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_人力资源?labelWords=label">
+									<a href="">
 										人力资源
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90?labelWords=label">人力资源</a>
-									<a href="h/jobs/list_%E6%8B%9B%E8%81%98?labelWords=label">招聘</a>
-									<a href="h/jobs/list_HRBP?labelWords=label">HRBP</a>
-									<a href="h/jobs/list_%E4%BA%BA%E4%BA%8B+HR?labelWords=label">人事/HR</a>
-									<a href="h/jobs/list_%E5%9F%B9%E8%AE%AD%E7%BB%8F%E7%90%86?labelWords=label">培训经理</a>
-									<a href="h/jobs/list_%E8%96%AA%E8%B5%84%E7%A6%8F%E5%88%A9%E7%BB%8F%E7%90%86?labelWords=label">薪资福利经理</a>
-									<a href="h/jobs/list_%E7%BB%A9%E6%95%88%E8%80%83%E6%A0%B8%E7%BB%8F%E7%90%86?labelWords=label">绩效考核经理</a>
+									<a href="">人力资源</a>
+									<a href="">招聘</a>
+									<a href="">HRBP</a>
+									<a href="">人事/HR</a>
+									<a href="">培训经理</a>
+									<a href="">薪资福利经理</a>
+									<a href="">绩效考核经理</a>
 								</dd>
 							</dl>
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_行政?labelWords=label">
+									<a href="">
 										行政
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_%E5%8A%A9%E7%90%86?labelWords=label">助理</a>
-									<a href="h/jobs/list_%E5%89%8D%E5%8F%B0?labelWords=label">前台</a>
-									<a href="h/jobs/list_%E6%B3%95%E5%8A%A1?labelWords=label">法务</a>
-									<a href="h/jobs/list_%E8%A1%8C%E6%94%BF?labelWords=label" class="curr">行政</a>
+									<a href="">助理</a>
+									<a href="">前台</a>
+									<a href="">法务</a>
+									<a href="" class="curr">行政</a>
 								</dd>
 							</dl>
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_财务?labelWords=label">
+									<a href="">
 										财务
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_%E4%BC%9A%E8%AE%A1?labelWords=label" class="curr">会计</a>
-									<a href="h/jobs/list_%E5%87%BA%E7%BA%B3?labelWords=label" class="curr">出纳</a>
-									<a href="h/jobs/list_%E8%B4%A2%E5%8A%A1?labelWords=label">财务</a>
+									<a href="" class="curr">会计</a>
+									<a href="" class="curr">出纳</a>
+									<a href="">财务</a>
 								</dd>
 							</dl>
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_高端职能职位?labelWords=label">
+									<a href="">
 										高端职位
 									</a>
 								</dt>
@@ -517,9 +517,6 @@
 
 				</div>
 				<style>
-					.ui-autocomplete{width:488px;background:#fafafa !important;position: relative;z-index:10;border: 2px solid #91cebe;}
-.ui-autocomplete-category{font-size:16px;color:#999;width:50px;position: absolute;z-index:11; right: 0px;/*top: 6px; */text-align:center;border-top: 1px dashed #e5e5e5;padding:5px 0;}
-.ui-menu-item{ *width:439px;vertical-align: middle;position: relative;margin: 0px;margin-right: 50px !important;background:#fff;border-right: 1px dashed #ededed;}
 .ui-menu-item a{display:block;overflow:hidden;}
 </style>
 				<ul class="reset hotabbing">

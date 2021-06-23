@@ -25,10 +25,10 @@
 								<h1><em></em>我收藏的职位</h1>
 							</dt>
 							<dd>
-								<form id="collectionsForm">
+								<%--<form id="collectionsForm">--%><%--
 									<ul class="reset my_collections">
 										<li data-id="148519">
-											<a title="搜狗" target="_blank" href="#">
+											<a title="收藏" target="_blank" href="#">
 												<img alt="搜狗" src="style/images/ff80808142e0968f0142e0d41f1205f2.jpg">
 											</a>
 											<div class="co_item">
@@ -48,31 +48,36 @@
 												</a>
 											</div>
 										</li>
-									</ul>
-									<ul class="reset my_collections">
-										<li data-id="148519">
-											<a title="搜狗" target="_blank" href="#">
-												<img alt="搜狗" src="style/images/ff80808142e0968f0142e0d41f1205f2.jpg">
-											</a>
-											<div class="co_item">
-												<h2 title="商家运营">
-													<a target="_blank" href="#">
-														<em>商家运营</em>
-														<span></span>
-													</a>
-												</h2>
-												<div class="co_cate">北京</div>
-												<span class="co_youhuo c7">领先品牌，全新产品，急聘电商运营人才。</span>
-												<a class="collection_link" target="_blank" href="#">投个简历</a>
-												<i></i>
-												<a class="collectionCancel collection_link collected" href="javascript:;">
-													取消收藏
-													<span>已取消收藏</span>
+									</ul>--%>
+
+									<c:forEach items="${collections}" var="collection">
+										<ul class="reset my_collections">
+											<li data-id="#">
+												<a title="" target="_blank" href="#">
+													<img alt="#" src="#">
 												</a>
-											</div>
-										</li>
-									</ul>
-								</form>
+												<div class="co_item">
+													<h2 title="">
+														<a target="_blank" href="#">
+															<em>${collection.pname}</em>
+															<span></span>
+														</a>
+													</h2>
+													<div class="co_cate">${collection.workcity}</div>
+													<span class="co_youhuo c7">${collection.worktype}，${collection.padvantage}，${collection.pdescription}。</span>
+													<a class="collection_link" target="_blank" href="#">投个简历</a>
+													<i></i>
+													<a class="collectionCancel collection_link collected" href="javascript:;">
+														取消收藏
+														<span>已取消收藏</span>
+													</a>
+												</div>
+											</li>
+										</ul>
+									</c:forEach>
+
+
+								<%--</form>--%>
 							</dd>
 						</dl>
 					</div>

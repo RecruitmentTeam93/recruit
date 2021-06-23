@@ -21,7 +21,8 @@
 									<em></em>
 									<div>招聘</div>
 								</h1>
-								<a class="inline jd_collection" href="#loginPop" title="收藏">
+								<input type="button">
+								<a class="inline jd_collection" href="${path}/collection?method=addCollection&id=${position.id}" title="收藏">
 								</a>
 							</dt>
 							<dd class="job_request">

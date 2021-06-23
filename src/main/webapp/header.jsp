@@ -35,6 +35,9 @@
             <li class="current"><a href="${pageContext.request.contextPath}/position?method=index">首页</a></li>
             <li ><a href="companylist.jsp" >公司职位</a></li>
             <li ><a href="jianli.jsp" rel="nofollow">我的简历</a></li>
+<%--
+            <li ><a href="${pageContext.request.contextPath}/collection?method=showcollection" rel="nofollow">我的收藏</a></li>
+--%>
             <li ><a href="collections.jsp" rel="nofollow">我的收藏</a></li>
             <li ><a href="create.jsp" rel="nofollow">发布职位</a></li>
         </ul>

@@ -60,6 +60,8 @@ public class PositionServlet extends BasicServlet {
       String pid = request.getParameter("id");
       int id = Integer.parseInt(pid);
       Position position = positionService.findPositionById(id);
+      HttpSession session = request.getSession();
+      session.setAttribute("position",position);
       //
       request.setAttribute("position", position);
       request.getRequestDispatcher("jobdetail.jsp").forward(request,response);
@@ -78,7 +80,6 @@ public class PositionServlet extends BasicServlet {
 //        for (Company company : hotCompany) {
 //            System.out.println(company);
 //        }
-      //跳转至页面中
       request.setAttribute("hotCompany", hotCompany);
       //跳转至页面中
       request.setAttribute("hotpostitions",hotPositions);
