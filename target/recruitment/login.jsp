@@ -4,7 +4,6 @@ pageEncoding="UTF-8"%>
 <html>
 <head>
 <script id="allmobilize" charset="utf-8" src="style/js/allmobilize.min.js"></script>
-<meta http-equiv="Cache-Control" content="no-siteapp" />
 <link rel="alternate" media="handheld"  />
 <script type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="style/css/style.css"/>
@@ -12,8 +11,7 @@ pageEncoding="UTF-8"%>
 <script type="text/javascript" src="style/js/jquery.lib.min.js"></script>
 <script type="text/javascript" src="style/js/core.min.js"></script>
 <script type="text/javascript">
-</script> 
-<script type="text/javascript" src="style/js/conv.js"></script>
+</script>
 </head>
 <body id="login_bg">
 <jsp:include page="/header.jsp"></jsp:include>

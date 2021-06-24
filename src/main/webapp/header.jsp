@@ -16,7 +16,7 @@
 
 <div id="header">
     <div class="wrapper">
-        <a href="index.jsp" class="logo">
+        <a href="${pageContext.request.contextPath}/position?method=index.jsp" class="logo">
             <img src="style/images/logo.png" width="229" height="43" alt="拉勾招聘-互联网招聘" />
         </a>
         <c:if test="${sessionScope.user==null}">
@@ -35,10 +35,8 @@
             <li class="current"><a href="${pageContext.request.contextPath}/position?method=index">首页</a></li>
             <li ><a href="companylist.jsp" >公司职位</a></li>
             <li ><a href="jianli.jsp" rel="nofollow">我的简历</a></li>
-<%--
-            <li ><a href="${pageContext.request.contextPath}/collection?method=showcollection" rel="nofollow">我的收藏</a></li>
---%>
-            <li ><a href="collections.jsp" rel="nofollow">我的收藏</a></li>
+            <li ><a href="${pageContext.request.contextPath}/collection?method=showCollection" rel="nofollow">我的收藏</a></li>
+          <%--  <li ><a href="collections.jsp" rel="nofollow">我的收藏</a></li>--%>
             <li ><a href="create.jsp" rel="nofollow">发布职位</a></li>
         </ul>
         <ul class="loginTop">

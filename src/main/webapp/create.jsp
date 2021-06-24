@@ -1,33 +1,20 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <!DOCTYPE HTML>
 <html>
 <head>
     <script src="style/js/allmobilize.min.js" charset="utf-8" id="allmobilize"></script>
     <style type="text/css"></style>
     <meta content="no-siteapp" http-equiv="Cache-Control">
-    <link media="handheld" rel="alternate">
-    <!-- end 云适配 -->
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <title>发布新职位-招聘服务-拉勾网-最专业的互联网招聘平台</title>
-    <meta content="23635710066417756375" property="qc:admins">
-    <meta name="description" content="拉勾网是3W旗下的互联网领域垂直招聘网站,互联网职业机会尽在拉勾网">
-    <meta name="keywords"
-          content="拉勾,拉勾网,拉勾招聘,拉钩, 拉钩网 ,互联网招聘,拉勾互联网招聘, 移动互联网招聘, 垂直互联网招聘, 微信招聘, 微博招聘, 拉勾官网, 拉勾百科,跳槽, 高薪职位, 互联网圈子, IT招聘, 职场招聘, 猎头招聘,O2O招聘, LBS招聘, 社交招聘, 校园招聘, 校招,社会招聘,社招">
-    <meta content="QIQ6KC1oZ6" name="baidu-site-verification">
-    <link href="http://www.lagou.com/images/favicon.ico" rel="Shortcut Icon">
     <link href="style/css/style.css" type="text/css" rel="stylesheet">
     <link href="style/css/external.min.css" type="text/css" rel="stylesheet">
     <link href="style/css/popup.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="style/js/jquery.1.10.1.min.js"></script>
     <script src="style/js/jquery.lib.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="style/js/ajaxfileupload.js"></script>
     <script src="style/js/additional-methods.js" type="text/javascript"></script>
     <script src="style/js/ajaxCross.json" charset="UTF-8"></script>
     <link rel="stylesheet" href="style/css/lijun.css">
     <link rel="stylesheet" href="style/css/ui.css">
     <link rel="stylesheet" href="style/css/window.css">
-    <link rel="stylesheet" href="style/css/sanji.css">
 </head>
 <body>
 <div id="body">

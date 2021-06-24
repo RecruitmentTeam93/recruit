@@ -8,7 +8,6 @@ import com.lagou.recruit.service.PositionService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -22,15 +21,17 @@ public class CollectionServlet extends BasicServlet {
     private CollectionService collectionService = new CollectionService();
     private PositionService positionService =new PositionService();
 
-    public void showcollection(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void showCollection(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
         int uid = user.getId();
+
+      /*  int uid =1;*/
         List<Collection> collections = collectionService.findCollection(uid);
         if (collections!=null){
           request.setAttribute("collections",collections);
           //
-        request.getRequestDispatcher("collection.jsp").forward(request,response);
+        request.getRequestDispatcher("collections.jsp").forward(request,response);
           /*  response.sendRedirect("collection.jsp");*/
         }
     }

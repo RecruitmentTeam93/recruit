@@ -2,7 +2,6 @@
 <!--<%@ page language="java" contentType="text/html; charset=UTF-8" isELIgnored="false" pageEncoding="UTF-8"%>-->
 <!DOCTYPE HTML>
 <head>
-	<script id="allmobilize" charset="utf-8" src="style/js/allmobilize.min.js"></script>
 	<link rel="alternate" media="handheld" />
 	<script type="text/javascript">
 	</script>
@@ -12,10 +11,7 @@
 	<script src="style/js/jquery.1.10.1.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="style/js/jquery.lib.min.js"></script>
 	<script src="style/js/ajaxfileupload.js" type="text/javascript"></script>
-	<script type="text/javascript" src="style/js/additional-methods.js"></script>
-	<script type="text/javascript">
-	</script>
-	<script type="text/javascript" src="style/js/conv.js"></script>
+	<script type="text/javascript"></script>
 </head>
 <body>
 <c:set var="path" scope="session" value="${pageContext.request.contextPath}"></c:set>
@@ -131,34 +127,34 @@
 								<dd>
 									<a href="">MySQL</a>
 									<a href="">SQLServer</a>
-									<a href="h/jobs/list_Oracle?labelWords=label">Oracle</a>
-									<a href="h/jobs/list_DB2?labelWords=label">DB2</a>
-									<a href="h/jobs/list_MongoDB?labelWords=label">MongoDB</a>
+									<a href="#">Oracle</a>
+									<a href="#">DB2</a>
+									<a href="#">MongoDB</a>
 								</dd>
 							</dl>
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_项目管理?labelWords=label">
+									<a href="#">
 										项目管理
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86?labelWords=label" class="curr">项目经理</a>
+									<a href="#" class="curr">项目经理</a>
 								</dd>
 							</dl>
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_高端技术职位?labelWords=label">
+									<a href="#">
 										高端职位
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_%E6%8A%80%E6%9C%AF%E7%BB%8F%E7%90%86?labelWords=label" class="curr">技术经理</a>
-									<a href="h/jobs/list_%E6%8A%80%E6%9C%AF%E6%80%BB%E7%9B%91?labelWords=label">技术总监</a>
-									<a href="h/jobs/list_%E6%B5%8B%E8%AF%95%E7%BB%8F%E7%90%86?labelWords=label">测试经理</a>
-									<a href="h/jobs/list_%E6%9E%B6%E6%9E%84%E5%B8%88?labelWords=label" class="curr">架构师</a>
-									<a href="h/jobs/list_CTO?labelWords=label">CTO</a>
-									<a href="h/jobs/list_%E8%BF%90%E7%BB%B4%E6%80%BB%E7%9B%91?labelWords=label">运维总监</a>
+									<a href="#" class="curr">技术经理</a>
+									<a href="#">技术总监</a>
+									<a href="#">测试经理</a>
+									<a href="#" class="curr">架构师</a>
+									<a href="#">CTO</a>
+									<a href="#">运维总监</a>
 								</dd>
 							</dl>
 						</div>
@@ -166,21 +162,21 @@
 					<div class="menu_box">
 						<div class="menu_main">
 							<h2>产品 <span></span></h2>
-							<a href="h/jobs/list_产品经理?labelWords=label">产品经理</a>
-							<a href="h/jobs/list_产品助理?labelWords=label">产品助理</a>
-							<a href="h/jobs/list_无线产品经理?labelWords=label">无线产品经理</a>
-							<a href="h/jobs/list_游戏策划?labelWords=label">游戏策划</a>
+							<a href="#">产品经理</a>
+							<a href="#">产品助理</a>
+							<a href="#">无线产品经理</a>
+							<a href="#">游戏策划</a>
 						</div>
 						<div class="menu_sub dn">
 							<dl class="reset">
 								<dt>
-									<a href="h/jobs/list_产品经理?labelWords=label">
+									<a href="#">
 										产品经理
 									</a>
 								</dt>
 								<dd>
-									<a href="h/jobs/list_%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86?labelWords=label" class="curr">产品经理</a>
-									<a href="h/jobs/list_%E7%BD%91%E9%A1%B5%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86?labelWords=label">网页产品经理</a>
+									<a href="#" class="curr">产品经理</a>
+									<a href="#">网页产品经理</a>
 									<a href="h/jobs/list_%E7%A7%BB%E5%8A%A8%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86?labelWords=label">移动产品经理</a>
 									<a href="h/jobs/list_%E4%BA%A7%E5%93%81%E5%8A%A9%E7%90%86?labelWords=label" class="curr">产品助理</a>
 									<a href="h/jobs/list_%E6%95%B0%E6%8D%AE%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86?labelWords=label">数据产品经理</a>

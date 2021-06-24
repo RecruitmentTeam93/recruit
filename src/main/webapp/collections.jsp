@@ -10,8 +10,6 @@
 		<link href="style/css/popup.css" type="text/css" rel="stylesheet">
 		<script type="text/javascript" src="style/js/jquery.1.10.1.min.js"></script>
 		<script src="style/js/jquery.lib.min.js" type="text/javascript"></script>
-		<script src="style/js/additional-methods.js" type="text/javascript"></script>
-		<script src="style/js/ajaxCross.json" charset="UTF-8"></script>
 	</head>
 	<body>
 		<div>
@@ -25,8 +23,8 @@
 								<h1><em></em>我收藏的职位</h1>
 							</dt>
 							<dd>
-								<%--<form id="collectionsForm">--%><%--
-									<ul class="reset my_collections">
+								<form id="collectionsForm">
+									<%--<ul class="reset my_collections">
 										<li data-id="148519">
 											<a title="收藏" target="_blank" href="#">
 												<img alt="搜狗" src="style/images/ff80808142e0968f0142e0d41f1205f2.jpg">
@@ -76,7 +74,6 @@
 										</ul>
 									</c:forEach>
 
-
 								<%--</form>--%>
 							</dd>
 						</dl>
@@ -89,13 +86,10 @@
 						</div>
 					</div>
 				</div>
-				<script src="style/js/collections.min.js"></script>
 				<div class="clear"></div>
-				<input type="hidden" value="4c6ae41d8c254f91becdb5f9ef2d4394" id="resubmitToken">
+				<input type="hidden" value="#" id="resubmitToken">
 				<a rel="nofollow" title="回到顶部" id="backtop"></a>
 			</div>
 		</div>
-		<script src="style/js/core.min.js" type="text/javascript"></script>
-		<script src="style/js/popup.min.js" type="text/javascript"></script>
 	</body>
 </html>

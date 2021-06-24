@@ -1,3 +1,4 @@
+/*
 package com.lagou.recruit.filter;
 
 import javax.servlet.*;
@@ -26,3 +27,4 @@ public class EncodeFilter implements Filter {
     }
 
 }
+*/
